@@ -1,4 +1,6 @@
-let infoSection = document.querySelector(".descriptionMainContainer .section");
+let infoSection = document.querySelector(
+  ".descriptionMainContainer .section"
+);
 let cartItemsQuantity = document.getElementById("cartItemsQuantity");
 let cart = [];
 window.addEventListener("load", () => {
@@ -31,9 +33,10 @@ async function getTotalCartItem() {
 
 async function showProduct() {
   let id = JSON.parse(localStorage.getItem("productId"));
-
   let product = JSON.parse(localStorage.getItem("products"));
-
+  let selectedProduct = product.filter(
+    (item) => item.productId == id
+  );
   let {
     productId,
     productName,
@@ -48,7 +51,7 @@ async function showProduct() {
     productInfoTwo,
     productInfoThree,
     productInfoUsageDetails,
-  } = product[0];
+  } = selectedProduct[0];
 
   let leftSection = `<article class="leftSection">
           <figure>
@@ -56,7 +59,7 @@ async function showProduct() {
               src="${productPictureMain}"
               alt="medicine-main-image"
             />
-          </figure>
+           </figure> 
           <div class="pictureRoll">
             <figure>
               <img
@@ -90,7 +93,7 @@ async function showProduct() {
             </figure>
             <figure>
               <img
-                src="${productPictureFive}"
+                src="${productPictureTwo}"
                 alt=""
               />
             </figure>

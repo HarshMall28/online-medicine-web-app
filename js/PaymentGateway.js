@@ -62,36 +62,35 @@ checkOutButton.addEventListener("click", async function () {
     name: product,
     price: price,
   };
-  let url1 =
-    "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/callPrescription";
-  let response1 = await fetch(
-    "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/callPrescription",
-    {
-      method: "get",
-      headers: {
-        "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      // body: JSON.stringify(items),
-    }
-  );
-  //console.log(JSON.stringify(cart));
-  let url2 =
-    "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/pdfGeneration";
-  let response = await fetch(
-    "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/pdfGeneration",
-    {
-      method: "post",
-      headers: {
-        "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: JSON.stringify(items),
-    }
-  );
-  let body = await response.json();
-  if (response.status === 200) {
-    localStorage.setItem("response", JSON.stringify(body));
-    location.href = "./success.html";
-  }
+  // let url1 =
+  //   "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/callPrescription";
+  // let response1 = await fetch(
+  //   "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/callPrescription",
+  //   {
+  //     method: "get",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       // 'Content-Type': 'application/x-www-form-urlencoded',
+  //     },
+  //     // body: JSON.stringify(items),
+  //   }
+  // );
+  // //console.log(JSON.stringify(cart));
+  // let url2 =
+  //   "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/pdfGeneration";
+  // let response = await fetch(
+  //   "http://demo-env.eba-uqr6mfaq.us-east-1.elasticbeanstalk.com/api/pdfGeneration",
+  //   {
+  //     method: "post",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       // 'Content-Type': 'application/x-www-form-urlencoded',
+  //     },
+  //     body: JSON.stringify(items),
+  //   }
+  // );
+  // let body = await response.json();
+  // if (response.status === 200) {}
+  // localStorage.setItem("response", JSON.stringify(body));
+  location.href = "./success.html";
 });

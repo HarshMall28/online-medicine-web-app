@@ -40,17 +40,18 @@ async function fetchDetails() {
     {
       productId: 101,
       productName: "Paracetamol 500mg",
-      productPictureMain: "../assets/img/para_1.PNG",
+      productPictureMain:
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_1.png?raw=true",
       productPictureOne:
-        "https://via.placeholder.com/200x200?text=Paracetamol1",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_5.png?raw=true",
       productPictureTwo:
-        "https://via.placeholder.com/200x200?text=Paracetamol2",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_2.jpeg?raw=true",
       productPictureThree:
-        "https://via.placeholder.com/200x200?text=Paracetamol3",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_3.png?raw=true",
       productPictureFour:
-        "https://via.placeholder.com/200x200?text=Paracetamol4",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_4.png?raw=true",
       productPictureFive:
-        "https://via.placeholder.com/200x200?text=Paracetamol5",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/para_1.png?raw=true",
       productPrice: "5.99",
       productInfoOne:
         "Used to reduce fever and relieve mild to moderate pain.",
@@ -64,17 +65,17 @@ async function fetchDetails() {
       productId: 102,
       productName: "Ibuprofen 400mg",
       productPictureMain:
-        "https://via.placeholder.com/200x200?text=Ibuprofen",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_4.png?raw=true",
       productPictureOne:
-        "https://via.placeholder.com/200x200?text=Ibuprofen1",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_1.png?raw=true",
       productPictureTwo:
-        "https://via.placeholder.com/200x200?text=Ibuprofen2",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_2.png?raw=true",
       productPictureThree:
-        "https://via.placeholder.com/200x200?text=Ibuprofen3",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_3.png?raw=true",
       productPictureFour:
-        "https://via.placeholder.com/200x200?text=Ibuprofen4",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_1.png?raw=true",
       productPictureFive:
-        "https://via.placeholder.com/200x200?text=Ibuprofen5",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/ibu_5.png?raw=true",
       productPrice: "7.99",
       productInfoOne:
         "Nonsteroidal anti-inflammatory drug (NSAID) used for pain relief.",
@@ -87,17 +88,17 @@ async function fetchDetails() {
       productId: 103,
       productName: "Amoxicillin 250mg",
       productPictureMain:
-        "https://via.placeholder.com/200x200?text=Amoxicillin",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_1.png?raw=true",
       productPictureOne:
-        "https://via.placeholder.com/200x200?text=Amoxicillin1",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_1.png?raw=true",
       productPictureTwo:
-        "https://via.placeholder.com/200x200?text=Amoxicillin2",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_2.png?raw=true",
       productPictureThree:
-        "https://via.placeholder.com/200x200?text=Amoxicillin3",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_3.png?raw=true",
       productPictureFour:
-        "https://via.placeholder.com/200x200?text=Amoxicillin4",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_4.png?raw=true",
       productPictureFive:
-        "https://via.placeholder.com/200x200?text=Amoxicillin5",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/amo_5.png?raw=true",
       productPrice: "9.99",
       productInfoOne:
         "Antibiotic used to treat bacterial infections.",
@@ -109,17 +110,17 @@ async function fetchDetails() {
       productId: 104,
       productName: "Cetirizine 10mg",
       productPictureMain:
-        "https://via.placeholder.com/200x200?text=Cetirizine",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_3.png?raw=true",
       productPictureOne:
-        "https://via.placeholder.com/200x200?text=Cetirizine1",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_3.png?raw=true",
       productPictureTwo:
-        "https://via.placeholder.com/200x200?text=Cetirizine2",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_1.png?raw=true",
       productPictureThree:
-        "https://via.placeholder.com/200x200?text=Cetirizine3",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_2.png?raw=true",
       productPictureFour:
-        "https://via.placeholder.com/200x200?text=Cetirizine4",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_4.png?raw=true",
       productPictureFive:
-        "https://via.placeholder.com/200x200?text=Cetirizine5",
+        "https://github.com/HarshMall28/online-medicine-web-app/blob/main/assets/img/cet_5.png?raw=true",
       productPrice: "4.99",
       productInfoOne:
         "Used for allergy relief, hay fever, and urticaria.",
@@ -318,7 +319,7 @@ async function decrease(el) {
 
 function setValueLocalStorage(el) {
   el.style.cursor = "pointer";
-  //alert("setting value", el.getAttribute("id"));
+  // alert("setting value" + el.getAttribute("id"));
   localStorage.setItem("productId", el.getAttribute("id"));
   window.location = "./Description.html";
 }
