@@ -104,3 +104,40 @@ p {
     transform: rotate(360deg);
   }
 }
+
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  .mainSection {
+    padding: 1rem; /* Reduce padding for smaller screens */
+    text-align: center; /* Center-align text */
+  }
+
+  .mainSection p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    margin: 0.5rem 0; /* Add spacing between paragraphs */
+    line-height: 1.4; /* Slightly tighter line spacing for mobile */
+  }
+
+  /* Adjust loader size for mobile */
+  .loader {
+    margin-top: 1.5rem; /* Reduce spacing above the loader */
+  }
+
+  .lds-roller {
+    width: 60px; /* Smaller loader size */
+    height: 60px;
+  }
+
+  .lds-roller div {
+    transform-origin: 30px 30px; /* Adjust transform origin for smaller size */
+  }
+
+  .lds-roller div:after {
+    width: 6px; /* Smaller loader dots */
+    height: 6px;
+    margin: -3px 0 0 -3px; /* Adjust margin for smaller dots */
+  }
+}

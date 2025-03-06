@@ -536,7 +536,6 @@ nav {
   padding: 0.5rem;
   display: grid;
   row-gap: 1rem;
- 
 }
 
 .mainCardContainer .section .card .cardInfo .cardHeading {
@@ -547,24 +546,46 @@ nav {
   display: grid;
   row-gap: 0rem;
 }
-.mainCardContainer .section .card .cardInfo .cardPrice .prespcription {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardPrice
+  .prespcription {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   column-gap: 0.5rem;
 }
 
-.mainCardContainer .section .card .cardInfo .cardPrice .prespcription i {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardPrice
+  .prespcription
+  i {
   color: var(--ternary-color);
 }
 
-.mainCardContainer .section .card .cardInfo .cardPrice .prespcription p {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardPrice
+  .prespcription
+  p {
   font-size: 10px;
   color: red;
   font-weight: bold;
 }
 
-.mainCardContainer .section .card .cardInfo .cardPrice .cardActualPrice {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardPrice
+  .cardActualPrice {
   font-size: 1.5rem;
 }
 
@@ -574,13 +595,19 @@ nav {
   font-style: italic;
 }
 
-.mainCardContainer .section .card .cardInfo .cardPrice .cardDelivery span {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardPrice
+  .cardDelivery
+  span {
   color: #f4081f;
   font-size: 14px;
 }
 
 .mainCardContainer .section .card .cardInfo .cardButtons {
-   align-self: flex-end;
+  align-self: flex-end;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 1rem;
@@ -601,7 +628,13 @@ nav {
   justify-self: flex-end;
 }
 
-.mainCardContainer .section .card .cardInfo .cardButtons .addToCart button {
+.mainCardContainer
+  .section
+  .card
+  .cardInfo
+  .cardButtons
+  .addToCart
+  button {
   border: none;
   background: var(--secondary-color);
   padding: 0.75rem;
@@ -750,11 +783,20 @@ nav {
   font-size: 1.5rem;
 }
 
-.descriptionMainContainer .section .rightSection .medicineheading h1 i {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineheading
+  h1
+  i {
   color: var(--ternary-color);
 }
 
-.descriptionMainContainer .section .rightSection .medicineheading #price {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineheading
+  #price {
   font-size: 2rem !important;
   font-weight: bold;
 }
@@ -763,7 +805,12 @@ nav {
   color: gray;
 }
 
-.descriptionMainContainer .section .rightSection .medicineheading p span {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineheading
+  p
+  span {
   color: red;
   font-weight: bold;
 }
@@ -773,33 +820,61 @@ nav {
   row-gap: 2rem;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoOne {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoOne {
   display: grid;
   row-gap: 1rem;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoOne h4 {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoOne
+  h4 {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoOne p {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoOne
+  p {
   font-size: 14px;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoTwo {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoTwo {
   display: grid;
   row-gap: 1rem;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoTwo h4 {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoTwo
+  h4 {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.descriptionMainContainer .section .rightSection .medicineInfo .infoTwo p {
+.descriptionMainContainer
+  .section
+  .rightSection
+  .medicineInfo
+  .infoTwo
+  p {
   font-size: 14px;
 }
 
@@ -897,8 +972,10 @@ nav {
   padding: 1rem;
 }
 
-
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -909,7 +986,11 @@ nav {
   background: #fff4e0;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer figure {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer
+  figure {
   background: white;
   border-radius: 10px;
   display: grid;
@@ -918,20 +999,34 @@ nav {
   font-size: 2rem;
   padding: 1rem;
   color: var(--ternary-color);
-  box-shadow: var(--box-shadow-light) ;
+  box-shadow: var(--box-shadow-light);
 }
 
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer .address{
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer
+  .address {
   display: grid;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer .address h6{ 
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer
+  .address
+  h6 {
   color: #77778a;
   font-size: 1rem;
   border-right: 2px solid #fffbf5;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer .address p{ 
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer
+  .address
+  p {
   color: black;
   font-size: 14px;
   font-weight: bold;
@@ -939,7 +1034,11 @@ nav {
   padding: 0.25rem 0.25rem 0.25rem 0;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection .addressContainer button{ 
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .addressContainer
+  button {
   border: none;
   background: none;
   outline: none;
@@ -947,22 +1046,28 @@ nav {
   text-underline-offset: 2px;
   cursor: pointer;
   font-weight: bold;
-  color: #fcb420
+  color: #fcb420;
 }
-.checkoutMainContainer .section .checkoutLeftSection  .invoice {
+.checkoutMainContainer .section .checkoutLeftSection .invoice {
   padding: 1rem;
   text-align: center;
   font-size: 12px;
   color: #77778a;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer {
   display: grid;
   row-gap: 1rem;
 }
 
-
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemsSummary{
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemsSummary {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -982,7 +1087,11 @@ nav {
   font-size: 12px;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemCardContainer {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemCardContainer {
   display: grid;
   align-items: flex-start;
   row-gap: 2rem;
@@ -992,29 +1101,53 @@ nav {
   max-height: 30rem;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemCardContainer .cardItemCard {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemCardContainer
+  .cardItemCard {
   display: grid;
   grid-template-columns: 10rem 1fr;
   column-gap: 1rem;
   padding: 1rem;
   border-radius: 10px;
-  background: #FFF4E0;
+  background: #fff4e0;
   box-shadow: var(--box-shadow-light);
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemCardContainer .cardItemCard figure {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemCardContainer
+  .cardItemCard
+  figure {
   display: grid;
   border-radius: 10px;
   background-color: white;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemCardContainer .cardItemCard .cardItemInfo {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemCardContainer
+  .cardItemCard
+  .cardItemInfo {
   display: grid;
   row-gap: 0.5rem;
   padding: 1rem;
 }
 
-.checkoutMainContainer .section .checkoutLeftSection  .cartItemsContainer .cartItemCardContainer .cardItemCard .cardItemInfo .firstInfo {
+.checkoutMainContainer
+  .section
+  .checkoutLeftSection
+  .cartItemsContainer
+  .cartItemCardContainer
+  .cardItemCard
+  .cardItemInfo
+  .firstInfo {
   display: grid;
   grid-template-columns: 1fr auto;
 }
@@ -1033,7 +1166,7 @@ nav {
   color: var(--ternary-color);
 }
 
-.firstInfoOne h6 span{
+.firstInfoOne h6 span {
   color: black;
 }
 
@@ -1062,9 +1195,8 @@ nav {
   background: var(--secondary-color);
   color: white;
   border-radius: 5px;
-  border:none;
+  border: none;
   cursor: pointer;
-  
 }
 
 .buttonInfo input {
@@ -1108,15 +1240,14 @@ nav {
 }
 
 .checkoutRightSection form {
-  padding: 1rem; 
+  padding: 1rem;
   border-radius: 10px;
   display: grid;
   row-gap: 1rem;
   box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.15);
 }
 
-
-.checkoutRightSection form p{
+.checkoutRightSection form p {
   font-size: 1.25rem;
 }
 
@@ -1134,16 +1265,22 @@ nav {
   color: gold;
 }
 
-.checkoutItemsTotal, .checkoutItemsDiscount, .checkoutItemsPriority, .checkoutItemsOrderTotal {
+.checkoutItemsTotal,
+.checkoutItemsDiscount,
+.checkoutItemsPriority,
+.checkoutItemsOrderTotal {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-.checkoutItemsTotal h6, .checkoutItemsDiscount h6, .checkoutItemsPriority h6, .checkoutItemsOrderTotal h6{
+.checkoutItemsTotal h6,
+.checkoutItemsDiscount h6,
+.checkoutItemsPriority h6,
+.checkoutItemsOrderTotal h6 {
   font-size: 16px;
   padding: 0.25rem;
-  color:#77778a;
+  color: #77778a;
 }
 
 .checkoutItemsOrderTotal {
@@ -1169,7 +1306,10 @@ nav {
   font-weight: bold;
 }
 
-.checkoutItemsTotal span, .checkoutItemsDiscount span, .checkoutItemsPriority span, .checkoutItemsOrderTotal span{
+.checkoutItemsTotal span,
+.checkoutItemsDiscount span,
+.checkoutItemsPriority span,
+.checkoutItemsOrderTotal span {
   justify-self: flex-end;
   padding: 0.25rem;
 }
@@ -1180,7 +1320,6 @@ nav {
   cursor: pointer;
 }
 
-
 #proceedToCheckoutButton:hover {
   box-shadow: var(--box-shadow-light);
   transform: scale(1.01);
@@ -1190,7 +1329,7 @@ nav {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   background: white;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #addMoreButton:hover {
@@ -1203,5 +1342,655 @@ nav {
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* General adjustments for smaller screens */
+  .section {
+    width: 90vw;
+  }
+
+  /* Navbar adjustments */
+  .navbarOne .section {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .navbarOne .section .address,
+  .navbarOne .section .search,
+  .navbarOne .section .telphone {
+    justify-self: center;
+  }
+
+  .navbarTwo .section {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .navbarTwo .section ul {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+  }
+
+  .navbarTwo .section .not-cart {
+    justify-self: center;
+  }
+
+  .navbarTwo .section .profile {
+    justify-self: center;
+  }
+
+  .navbarThree .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Main card container adjustments */
+  .mainCardContainer .section {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 1rem;
+  }
+
+  .mainCardContainer .section .card {
+    padding: 0.5rem;
+  }
+
+  .mainCardContainer .section .card .cardInfo .cardButtons {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+  }
+
+  .mainCardContainer .section .card .cardInfo .cardButtons a {
+    justify-self: center;
+  }
+
+  .mainCardContainer
+    .section
+    .card
+    .cardInfo
+    .cardButtons
+    .addToCart {
+    justify-self: center;
+  }
+
+  /* Description page adjustments */
+  .descriptionMainContainer .section {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .descriptionMainContainer .section .leftSection {
+    grid-template-rows: auto;
+    row-gap: 1rem;
+  }
+
+  .descriptionMainContainer .section .leftSection .pictureRoll {
+    grid-template-columns: repeat(3, auto);
+    height: auto;
+  }
+
+  .descriptionMainContainer .section .rightSection {
+    padding: 1rem;
+  }
+
+  .descriptionMainContainer
+    .section
+    .rightSection
+    .medicineAddToCart {
+    justify-content: center;
+  }
+}
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Center-align footer content */
+  .footerOne ul,
+  .footerTwo .section,
+  .footerThree .section {
+    justify-content: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+  }
+
+  /* Adjust footerOne for mobile mode */
+  .footerOne ul {
+    grid-template-columns: 1fr; /* Stack items vertically */
+    row-gap: 1rem; /* Add spacing between items */
+  }
+
+  .footerOne ul li {
+    justify-self: center; /* Center-align list items */
+  }
+
+  /* Adjust footerTwo for mobile mode */
+  .footerTwo .section {
+    grid-template-columns: 1fr; /* Stack items vertically */
+    row-gap: 1rem; /* Add spacing between items */
+    padding: 2rem 1rem; /* Adjust padding */
+  }
+
+  .footerTwo .section .info,
+  .footerTwo .section .inputsOne,
+  .footerTwo .section .textArea,
+  .footerTwo .section .submitButton {
+    justify-self: center; /* Center-align items */
+  }
+
+  .footerTwo .section .inputsOne input,
+  .footerTwo .section .textArea textarea {
+    width: 100%; /* Ensure inputs take full width */
+    max-width: 300px; /* Limit input width for better readability */
+  }
+
+  /* Adjust footerThree for mobile mode */
+  .footerThree .section {
+    grid-template-columns: 1fr; /* Stack items vertically */
+    row-gap: 1rem; /* Add spacing between items */
+    padding: 2rem 1rem; /* Adjust padding */
+  }
+
+  .footerThree .section .left {
+    grid-template-columns: 1fr; /* Stack items vertically */
+    grid-template-areas: "a" "b" "c" "d" "e"; /* Reorder grid areas */
+  }
+
+  .footerThree .section .left .heading,
+  .footerThree .section .left .categories,
+  .footerThree .section .left .medicines,
+  .footerThree .section .left .others,
+  .footerThree .section .left .summary {
+    justify-self: center; /* Center-align items */
+    text-align: center; /* Center-align text */
+  }
+
+  .footerThree .section .right {
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center-align text */
+  }
+
+  .footerThree .section .right .playstore {
+    justify-content: center; /* Center-align buttons */
+  }
+
+  .footerThree .section .right .mobileApp {
+    justify-content: center; /* Center-align inputs */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .mainCardContainer .section {
+    grid-template-columns: 1fr;
+  }
+
+  .navbarTwo .section ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .descriptionMainContainer .section .leftSection .pictureRoll {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .footerOne ul {
+    grid-template-columns: 1fr;
+  }
+}
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Adjust navbarOne for mobile mode */
+  .navbarOne .section {
+    grid-template-columns: auto 1fr; /* Logo and Search Bar */
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem; /* Add spacing between logo and search bar */
+  }
+
+  /* Hide address and phone number in mobile mode */
+  .navbarOne .section .address,
+  .navbarOne .section .telphone {
+    display: none;
+  }
+
+  /* Ensure the search bar takes up remaining space */
+  .navbarOne .section .search {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Adjust the search bar input */
+  .navbarOne .section .search input {
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 2.5rem; /* Adjust padding for search icon */
+  }
+
+  /* Ensure the logo is properly sized */
+  .navbarOne .section figure {
+    width: 6rem; /* Adjust logo size if needed */
+  }
+}
+
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Adjust navbarTwo for mobile mode */
+  .navbarTwo .section {
+    display: flex;
+    justify-content: space-between; /* Space between hamburger and cart */
+    align-items: center;
+    padding: 0.5rem;
+    position: relative; /* Ensure the dropdown is positioned relative to navbarTwo */
+  }
+
+  /* Ensure the hamburger icon is visible */
+  .navbarTwo .section .hamburger {
+    display: block;
+    font-size: 2rem; /* Increase the size of the hamburger icon */
+    cursor: pointer;
+    color: var(--ternary-color);
+    padding: 0.5rem;
+    z-index: 1001; /* Ensure it's above other elements */
+  }
+
+  /* Ensure the hamburger icon has a proper clickable area */
+  .navbarTwo .section .hamburger i {
+    pointer-events: none; /* Ensure clicks are registered on the parent */
+  }
+
+  /* Ensure the cart button is visible and aligned to the right */
+  .navbarTwo .section .not-cart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1002; /* Ensure it's above the hamburger menu */
+  }
+
+  /* Adjust the cart icon and quantity */
+  .navbarTwo .section .not-cart .cart {
+    position: relative;
+    color: var(--ternary-color);
+    text-decoration: none;
+  }
+
+  .navbarTwo .section .not-cart .cart .cartItemsQuantity {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+  }
+
+  /* Hide the default navbarTwo menu items */
+  .navbarTwo .section ul {
+    display: none;
+    position: absolute; /* Position the dropdown absolutely */
+    top: 100%; /* Position below the navbar */
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the menu appears above other content */
+  }
+
+  /* Style the dropdown menu when active */
+  .navbarTwo .section ul.active {
+    display: flex; /* Show the dropdown menu */
+    flex-direction: column;
+  }
+
+  .navbarTwo .section ul.active li {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    color: var(--ternary-color);
+    cursor: pointer;
+  }
+
+  .navbarTwo .section ul.active li:hover {
+    background: #f5f5f5;
+  }
+
+  /* Hide profile section on mobile */
+  .navbarTwo .section .profile {
+    display: none;
+  }
+}
+/* ======================================================== */
+/* Mobile Responsive Styles */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Adjust navbarThree for mobile mode */
+  .navbarThree .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevent wrapping into multiple lines */
+    align-items: center;
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+
+  .navbarThree .navigation span,
+  .navbarThree .navigation a {
+    padding-right: 0.5rem; /* Reduce spacing between items */
+    font-size: 14px; /* Adjust font size if needed */
+  }
+
+  .navbarThree .navigation i {
+    font-size: 12px; /* Adjust icon size if needed */
+  }
+}
+
+/* ======================================================== */
+/* Mobile Responsive Styles for Checkout Page Body */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Prevent horizontal scrolling */
+  body {
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */
+  }
+
+  /* Adjust the main checkout container */
+  .checkoutMainContainer {
+    width: 100vw !important; /* Ensure it takes full viewport width */
+    max-width: 100% !important; /* Prevent overflow */
+    padding: 0 !important; /* Remove padding */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer .section {
+    grid-template-columns: 1fr !important; /* Stack columns vertically */
+    padding: 1rem !important; /* Add padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  /* Adjust the left section (cart items) */
+  .checkoutMainContainer .section .checkoutLeftSection {
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .addressContainer {
+    grid-template-columns: 1fr !important; /* Stack address container items vertically */
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .addressContainer
+    figure {
+    display: none !important; /* Hide the icon in mobile mode */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .addressContainer
+    .address {
+    text-align: center !important; /* Center-align address text */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer {
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cartItemCardContainer {
+    max-height: none !important; /* Remove max-height for scrolling */
+    overflow-y: visible !important; /* Allow content to flow naturally */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cardItemCard {
+    grid-template-columns: 1fr !important; /* Stack cart item cards vertically */
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cardItemCard
+    figure {
+    width: 100% !important; /* Make the image take full width */
+    height: auto !important; /* Adjust height automatically */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cardItemCard
+    .cardItemInfo {
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cardItemCard
+    .cardItemInfo
+    .firstInfo {
+    grid-template-columns: 1fr !important; /* Stack first info items vertically */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutLeftSection
+    .cartItemsContainer
+    .cardItemCard
+    .cardItemInfo
+    .extraOption {
+    grid-template-columns: 1fr !important; /* Stack extra options vertically */
+    gap: 0.5rem !important; /* Add spacing between buttons */
+  }
+
+  /* Adjust the right section (checkout summary) */
+  .checkoutMainContainer .section .checkoutRightSection {
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer .section .checkoutRightSection form {
+    padding: 0.5rem !important; /* Reduce padding */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItems {
+    row-gap: 1rem !important; /* Add spacing between items */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsTotal,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsDiscount,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsPriority,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsOrderTotal {
+    grid-template-columns: 1fr !important; /* Stack checkout items vertically */
+    text-align: center !important; /* Center-align text */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsButtons {
+    grid-template-columns: 1fr !important; /* Stack buttons vertically */
+    gap: 1rem !important; /* Add spacing between buttons */
+    width: 100% !important; /* Ensure it takes full width */
+    max-width: 100% !important; /* Prevent overflow */
+    margin: 0 !important; /* Remove margin */
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsButtons
+    button {
+    width: 100% !important; /* Make buttons full width */
+  }
+}
+
+/* ======================================================== */
+/* Mobile Responsive Styles for Checkout Items */
+/* ======================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Center-align all elements under checkoutItems */
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItems {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Center-align horizontally */
+    text-align: center !important; /* Center-align text */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Center-align individual items */
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsTotal,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsDiscount,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsPriority,
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsOrderTotal {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Center-align horizontally */
+    text-align: center !important; /* Center-align text */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Center-align the itemTotal */
+  #itemTotal {
+    text-align: center !important; /* Center-align text */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Center-align the orderTotal */
+  #orderTotal {
+    text-align: center !important; /* Center-align text */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Center-align the checkout buttons */
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsButtons {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Center-align horizontally */
+    text-align: center !important; /* Center-align text */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .checkoutMainContainer
+    .section
+    .checkoutRightSection
+    .checkoutItemsButtons
+    button {
+    width: 80% !important; /* Make buttons slightly smaller than full width */
+    margin: 0.5rem 0 !important; /* Add spacing between buttons */
   }
 }

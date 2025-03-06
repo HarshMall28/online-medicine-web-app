@@ -9,7 +9,9 @@ function showCartItems() {
   let itemTotal = document.getElementById("itemTotal");
   let orderTotal = document.getElementById("orderTotal");
   let itemSum = 0;
-  let cartItemCardContainer = document.querySelector(".cartItemCardContainer");
+  let cartItemCardContainer = document.querySelector(
+    ".cartItemCardContainer"
+  );
   basket.map((singleItem) => {
     console.log(singleItem);
     let {
@@ -64,12 +66,12 @@ function showCartItems() {
     cartItemCardContainer.append(cardItemCard);
   });
 }
-const actualBtn = document.getElementById('actual-btn1');
-const fileChosen = document.getElementById('file-chosen');
+const actualBtn = document.getElementById("actual-btn1");
+const fileChosen = document.getElementById("file-chosen");
 
-actualBtn.addEventListener('change', function(){
-  fileChosen.innerHTML = this.files[0].name
-})
+actualBtn.addEventListener("change", function () {
+  fileChosen.innerHTML = this.files[0].name;
+});
 
 let proceedToCheckoutButton = document.getElementById(
   "proceedToCheckoutButton"
@@ -78,4 +80,33 @@ let proceedToCheckoutButton = document.getElementById(
 proceedToCheckoutButton.addEventListener("click", function () {
   alert("Redirecting to our payment gateway");
   location.href = "/Redirect.html";
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerMenu = document.querySelector(
+    ".navbarTwo .section .hamburger"
+  );
+  const navbarContent = document.querySelector(
+    ".navbarTwo .section ul"
+  );
+
+  hamburgerMenu.addEventListener("click", function () {
+    navbarContent.classList.toggle("active");
+    if (navbarContent.classList.contains("active")) {
+      hamburgerMenu.innerHTML = '<i class="fa-solid fa-times"></i>'; // Change to "X" icon
+    } else {
+      hamburgerMenu.innerHTML = '<i class="fa-solid fa-bars"></i>'; // Change back to hamburger icon
+    }
+  });
+
+  // Close the dropdown when clicking outside of it
+  document.addEventListener("click", function (event) {
+    if (
+      !hamburgerMenu.contains(event.target) &&
+      !navbarContent.contains(event.target)
+    ) {
+      navbarContent.classList.remove("active");
+      hamburgerMenu.innerHTML = '<i class="fa-solid fa-bars"></i>'; // Change back to hamburger icon
+    }
+  });
 });

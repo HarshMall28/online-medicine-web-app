@@ -196,7 +196,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-items: space-around;
-  background: #FEFCF3;
+  background: #fefcf3;
 }
 
 .orderSummary {
@@ -398,7 +398,11 @@ button {
   justify-self: flex-end;
 }
 
-.creditDebitCard .creditBody .creditDebitCard_heading .iconContainer figure {
+.creditDebitCard
+  .creditBody
+  .creditDebitCard_heading
+  .iconContainer
+  figure {
   height: 2rem;
   width: 3rem;
   padding: 1px;
@@ -594,4 +598,166 @@ input[type="radio"] {
   font-family: var(--font-primary);
   border-radius: none;
   color: var(--colorOne);
+}
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    grid-template-columns: 1fr; /* Stack the left and right sections vertically */
+    margin-top: 8vh; /* Adjust margin for smaller screens */
+  }
+
+  .mainContainer_left {
+    padding: 2rem 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .mainContainer_right {
+    padding: 2rem 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .billingAddress_container_box {
+    grid-template-columns: 1fr; /* Stack country and state fields vertically */
+  }
+
+  .paymentMethodsContainer {
+    grid-template-columns: 1fr; /* Stack payment methods vertically */
+  }
+
+  .creditDebitCard .creditBody {
+    grid-template-columns: 1fr; /* Stack credit card heading and icons vertically */
+  }
+
+  .creditDebitCard .creditBody .creditDebitCard_heading {
+    grid-template-columns: 1fr; /* Stack credit card heading and icons vertically */
+  }
+
+  .creditDebitCard
+    .creditBody
+    .creditDebitCard_heading
+    .iconContainer {
+    justify-self: flex-start; /* Align icons to the left */
+    margin-top: 1rem; /* Add margin for spacing */
+  }
+
+  #creditBody {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .bodyThree {
+    grid-template-columns: 1fr; /* Stack CVV and expiry date fields vertically */
+  }
+
+  .upiBodyLeftInput input,
+  .bodyOne input,
+  .bodyTwo input,
+  .bodyThree .one input,
+  .bodyThree .two input {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+
+  #upiBody {
+    grid-template-columns: 1fr; /* Stack UPI payment options vertically */
+    column-gap: 0; /* Remove column gap */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .upiBodyCenter {
+    display: none; /* Hide the "or" separator on smaller screens */
+  }
+
+  .barcodeImage {
+    width: 10rem; /* Reduce QR code size for smaller screens */
+    height: 10rem;
+  }
+
+  #barcodeButton {
+    font-size: 0.8rem; /* Reduce button font size for smaller screens */
+    padding: 0.5rem; /* Reduce button padding for smaller screens */
+  }
+
+  .orderSummary {
+    grid-template-rows: auto; /* Adjust order summary layout */
+  }
+
+  .orderInfo {
+    grid-template-columns: 1fr; /* Stack order info vertically */
+    row-gap: 0.5rem; /* Add gap between items */
+  }
+
+  .summaryInfo,
+  .summaryTotal {
+    grid-template-columns: 1fr; /* Stack summary info vertically */
+  }
+
+  .paraOne,
+  .paraTwo {
+    text-align: center; /* Center align text for smaller screens */
+  }
+
+  #checkOutButton {
+    width: 100%; /* Make button full width on smaller screens */
+    padding: 1rem; /* Adjust button padding */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .mainContainer_left .heading {
+    font-size: 2rem; /* Reduce heading font size for smaller screens */
+    padding-bottom: 2rem; /* Reduce padding for smaller screens */
+  }
+
+  .payment_heading h1 {
+    font-size: 1.5rem; /* Reduce payment heading font size for smaller screens */
+  }
+
+  .secured {
+    grid-template-columns: 1fr; /* Stack secured connection text and icon vertically */
+    justify-self: flex-start; /* Align to the left */
+  }
+
+  .secured p {
+    font-size: 0.8rem; /* Reduce font size for smaller screens */
+  }
+
+  .secured i {
+    font-size: 0.8rem; /* Reduce icon size for smaller screens */
+  }
+
+  .creditDebitCard .creditBody .creditDebitCard_heading .headerOne i {
+    font-size: 1rem; /* Reduce icon size for smaller screens */
+  }
+
+  .upi_heading .headerOne p,
+  .paytm_heading .headerOne p,
+  .netBanking_heading .headerOne p,
+  .wallet_heading .headerOne p {
+    font-size: 0.8rem; /* Reduce font size for smaller screens */
+  }
+
+  .upiBodyLeftInput input,
+  .bodyOne input,
+  .bodyTwo input,
+  .bodyThree .one input,
+  .bodyThree .two input {
+    padding: 0.5rem; /* Reduce input padding for smaller screens */
+  }
+
+  #upiMakePayment {
+    height: 2.5rem; /* Reduce button height for smaller screens */
+    font-size: 0.8rem; /* Reduce button font size for smaller screens */
+  }
+
+  .barcodeImage {
+    width: 8rem; /* Further reduce QR code size for smaller screens */
+    height: 8rem;
+  }
+
+  #barcodeButton {
+    font-size: 0.7rem; /* Further reduce button font size for smaller screens */
+    padding: 0.3rem; /* Further reduce button padding for smaller screens */
+  }
 }
